@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div> 
+    <h1 style="text-align: center;">Pokedex</h1>
+  </div>
+  <div class="search_bar" style="justify-content: center; text-align: center;">
+    <input id="pokeInput" placeholder="Search pokemon">
+    <button  id="pokeButton" class="btn-search">Let's Go</i></button>
+  </div>
+  <hr>
+  <div class="card" style="width:25rem; margin: 0 auto;">
+    <div class="row">
+      <h2 id="name" style="text-align: center;"></h2>
+      <img id="sprite">
+      <div class="col">
+        <p id="type"></p>
+        <p id="Abilities" class="text-muted"></p>
+        <p id="ability_01"></p>
+        <p id="ability_02"></p>
+      </div>
+      <div class="col">
+        <p id="Stats" class="text-muted"></p>
+        <p id="HP"></p>
+        <p id="ATK"></p>
+        <p id="DEF"></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
